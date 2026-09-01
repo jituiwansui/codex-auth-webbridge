@@ -1,0 +1,11 @@
+# 凭证文件——绝不入库
+auth.json
+auth.json.bak-*
+*.auth.json
+
+# Python
+__pycache__/
+*.pyc
+
+# 临时文件
+.tmp-*
