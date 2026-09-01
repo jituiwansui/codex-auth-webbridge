@@ -48,3 +48,7 @@ python codex_auth.py --timeout 600   # 调整等待授权的最长时间（秒�
 ## 致谢
 
 思路借鉴自 [chengchengking/codex-](https://github.com/chengchengking/codex-)（网页 token 提取 + Cloudflare Worker 嫁接方案）。本项目改为本地标准 OAuth 流程，无需第三方 Worker，且凭证带 `refresh_token` 可自动续期。
+
+## 许可证
+
+[MIT](LICENSE)
